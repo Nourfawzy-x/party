@@ -1,0 +1,98 @@
+header{
+    background-image: url(../dance.jpg);
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative; 
+    
+
+}
+
+.eventOver{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    
+}
+#nav{
+   background-color: gray;
+    position: absolute;
+    width: 10%;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    
+   
+    
+}
+.close{
+    z-index: 9999;
+}
+#nav a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    
+}
+#content{
+position: absolute;
+left: 45%;
+top: 45%;
+color: white;
+}
+
+.open{
+    font-size:30px;
+    cursor:pointer;
+    top: 50%;
+   color: white;
+    
+}
+#singers{
+    margin: 0px auto;
+    width: 50%;
+}
+#singers h3{
+    background-color: rgba(214, 46, 51, 0.6);
+    color:white;
+    padding: 10px;
+    margin: 0px;
+}
+#singers div{
+    background-color: #ccc;
+    padding:10px;
+    display:none;
+}
+#countDown{
+    background-color: rgba(214, 46, 51, 0.6);
+   
+}
+#num{
+    color:  #D62E33;
+    font-size: 20px;
+}
+.btn{
+    display:block;
+    margin-top:20px;
+    
+}
+.form-control  {
+    padding: 15px;
+}
+#contact-us form textarea{
+    height: 200px;
+    resize: vertical;
+}
+#contact-us form button{
+    background-color: #D62E33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase
+}
+
+
